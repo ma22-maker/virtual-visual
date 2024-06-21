@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Nav";
 import Lenis from "lenis";
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import useMousePosition from "../helper/useMousePosition";
 import Zoom from "./Picture";
 
 export default function Home() {
