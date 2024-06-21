@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Eikothin;
+    src: url(virtual-visual\public\fonts\Eiko\AnyConv.com__PPEiko-Thin.woff) format("woff");
+  }
+    @font-face {
+      font-family: Eikomed;
+      src: url(virtual-visual\public\fonts\Eiko\AnyConv.com__PPEiko-Medium.woff) format("woff");
+    }
+    @font-face {
+      font-family: Eikobold;
+      src: url(virtual-visual\public\fonts\Eiko\AnyConv.com__PPEiko-Heavy.woff) format("woff");
+    }
+    @font-face {
+      font-family: Montrealbook;
+      src: url(virtual-visual\public\fonts\Montreal\PPNeueMontreal-Book.woff) format("woff");
+    }
+    @font-face {
+      font-family: Montrealthin;
+      src: url(virtual-visual\public\fonts\Montreal\AnyConv.com__PPNeueMontreal-Thin.woff) format("woff");
+    }
+    @font-face {
+      font-family: Montrealmed;
+      src: url(virtual-visual\public\fonts\Montreal\AnyConv.com__PPNeueMontreal-Medium.woff) format("woff");
+    }
+    @font-face {
+      font-family: Montrealbold;
+      src: url(virtual-visual\public\fonts\Montreal\AnyConv.com__PPNeueMontreal-Bold.woff) format("woff");
+    }
+   
+  }

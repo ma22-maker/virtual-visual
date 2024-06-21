@@ -2,7 +2,8 @@
 interface Props {
 	title: string;
 }
-
+import Footer from "../components/Footer";
+import '../styles/global.css';
 const { title } = Astro.props;
 ---
 
@@ -34,10 +35,30 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
+		background: #0b0b0b;
 		background-size: 224px;
 	}
-	code {
+	.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ede8e4;
+    width: 100vw; /* Use vw for viewport width (optional) */
+  }
+  .cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Prevent cursor interaction */
+  }
+  
+  .cursor svg {
+    background-color: rgb(2, 2, 2);
+    /* Style your square SVG here (e.g., background color, border) */
+  }
+  
+	/* code {
 		font-family:
 			Menlo,
 			Monaco,
@@ -47,5 +68,5 @@ const { title } = Astro.props;
 			Bitstream Vera Sans Mono,
 			Courier New,
 			monospace;
-	}
+	} */
 </style>
